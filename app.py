@@ -1,6 +1,8 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
+import urllib.request
+from urllib.request import urlretrieve
 from fastai.vision import open_image, load_learner, image, torch
 
 
