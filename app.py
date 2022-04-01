@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 import numpy as np
-from fastai.vision import *
+from fastai.vision import open_image, load_learner, image, torch
 
 
 MODEL_URL = "https://www.dropbox.com/s/eyhud3qtk6pzztd/testapp.pkl?dl=0"
