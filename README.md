@@ -29,6 +29,11 @@ Navigate to http://localhost:8501 for the app. (Streamlit runs on port 8501 by d
 - U-Net allows us to look at pixel-wise representations of our images through sizing it down and then blowing it back up into a high resolution image. The first part we call an "encoder" and the second a "decoder"
 -  U-Net learner with a Residual Neural Network (ResNet) backbone and then trigger the fast.ai training process,We have used resnet 34.
 
+## Results
+
+DICE is basically IoU, it is the size of the overlap of the two segmentations divided by the total size of the two objects. 
+
+One epoch got about 87
 
 ## Installation Details
 
