@@ -25,9 +25,14 @@ docker run -p 8501:8501 testapp1:latest
 
 Navigate to http://localhost:8501 for the app. (Streamlit runs on port 8501 by default)
 
+## Technical details
+- U-Net allows us to look at pixel-wise representations of our images through sizing it down and then blowing it bck up into a high resolution image. The first part we call an "encoder" and the second a "decoder"
+-  U-Net learner with a Residual Neural Network (ResNet) backbone and then trigger the fast.ai training process,We have used resnet 34.
 
 
+## Installation Details
 
-
+- **fastai==1.0.61** (and its dependencies).  Please dont install the higher versions
+- **PyTorch 1.6.0** Please don't install the higher versions
 
 
